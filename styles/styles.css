@@ -621,7 +621,7 @@
 #es-rc #es-rc-content .es-cross__item__image-container:hover ~ .es-cross__item__button, #es-rc #es-rc-content .es-cross__item__image:hover ~ .es-cross__item__button {
   background-color: #673996;
 }
-@container es-rc-content (min-width: 768px) {
+@container es-rc-content (min-width: 798px) {
   #es-rc #es-rc-content .es-cross__content {
     flex-direction: row;
     align-items: flex-start;
