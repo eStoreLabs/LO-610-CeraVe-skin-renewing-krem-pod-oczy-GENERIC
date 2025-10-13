@@ -600,7 +600,15 @@ $transition: all 0.3s ease-in-out;
     @container es-rc-content (min-width: 576px) {
       background-color: $color-accent-2;
     }
-    @container es-rc-content (max-width: 614px) {
+    @container es-rc-content (max-width: 575px) {
+      &__name {
+      font-size: 25px;
+    }
+    &__text {
+      font-size: 20px;
+    }
+    }
+    @container es-rc-content (max-width: 932px) {
       flex-direction: column;
 
       &__image-container {

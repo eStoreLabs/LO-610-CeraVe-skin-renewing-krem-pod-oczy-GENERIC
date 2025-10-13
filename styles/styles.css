@@ -535,7 +535,15 @@
     background-color: #673996;
   }
 }
-@container es-rc-content (max-width: 614px) {
+@container es-rc-content (max-width: 575px) {
+  #es-rc #es-rc-content .es-formula-use__name {
+    font-size: 25px;
+  }
+  #es-rc #es-rc-content .es-formula-use__text {
+    font-size: 20px;
+  }
+}
+@container es-rc-content (max-width: 932px) {
   #es-rc #es-rc-content .es-formula-use {
     flex-direction: column;
   }
