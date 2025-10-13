@@ -591,8 +591,11 @@ $transition: all 0.3s ease-in-out;
     &__name {
       text-transform: uppercase;
       font-weight: $fw-bold;
-      font-size: 24px;
+      font-size: 30px;
       margin-bottom: $px-L;
+    }
+    &__text {
+      font-size: 25px;
     }
     @container es-rc-content (min-width: 576px) {
       background-color: $color-accent-2;
